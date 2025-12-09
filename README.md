@@ -10,14 +10,9 @@ Our algorithm achieved a mean F1.25 score of 0.870 and IoU of 0.751 across all e
 
 **Live Dashboard:** https://firecast-wildfire-monitor.netlify.app/
 
-The interactive dashboard allows you to explore all 93 fires, filter by year, scrub through observation windows to watch fire progression, and compare predicted perimeters against official CAL FIRE boundaries.
+The interactive dashboard allows you to explore all 93 fires, filter by year, step through observation windows to watch fire progression, and compare predicted perimeters against official CAL FIRE boundaries.
 
 For full methodology and analysis, see the project report: `reports/FireCast_Final_Report.pdf`
-
-## Installation
-```bash
-pip install -r requirements.txt
-```
 
 ## Data Access
 
@@ -87,7 +82,7 @@ FireCast/
 │       ├── fire_data.json
 │       └── perimeters/
 └── reports/
-    └── FireCast_Final_Report.pdf         # Full system analysis
+    └── FireCast_Final_Report.pdf         # Full methodology and analysis
 ```
 
 ## Authors
