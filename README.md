@@ -24,6 +24,7 @@ pip install -r requirements.txt
 This project uses two data sources that must be downloaded separately:
 
 - **NASA FIRMS VIIRS Detections**: Download from https://firms.modaps.eosdis.nasa.gov/download/
+  - Requires free NASA Earthdata account (https://urs.earthdata.nasa.gov/users/new)
   - Select VIIRS (S-NPP, NOAA-20, NOAA-21) for California region
   - Place downloaded files in `data/firms_data/`
 
@@ -58,6 +59,10 @@ FireCast/
 ├── FireCast_Perimeter_Analysis.ipynb     # Full analysis notebook
 ├── requirements.txt
 ├── data/
+│   ├── firms_data/
+│   │   └── README.md                     # FIRMS download instructions
+│   ├── calfire_data/
+│   │   └── README.md                     # CAL FIRE download instructions
 │   ├── firms_filtered.parquet            # Preprocessed FIRMS detections
 │   ├── calfire_filtered.parquet          # Filtered CAL FIRE perimeters
 │   └── perimeters/
@@ -76,7 +81,7 @@ FireCast/
 
 ## Authors
 
-- Michael Michelini
 - Jonathan Kelly
+- Michael Michelini
 
 University of Michigan - SIADS 699 Capstone Project
