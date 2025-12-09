@@ -62,7 +62,7 @@ FireCast/
 ├── data_preprocessing.py                 # FIRMS/CAL FIRE data loading and filtering
 ├── perimeter_pipeline.py                 # Perimeter construction algorithm
 ├── export_dashboard.py                   # Export data for web dashboard
-├── FireCast_Perimeter_Analysis.ipynb     # Full analysis notebook
+├── firecast_perimeter_analysis.ipynb     # Full analysis notebook
 ├── requirements.txt
 ├── data/
 │   ├── firms_data/
@@ -74,15 +74,13 @@ FireCast/
 │   └── perimeters/
 │       ├── fire_evaluation.parquet       # Evaluation metrics per fire
 │       └── window_perimeters.parquet     # Perimeters at each observation window
-├── dashboard/                            # Interactive web dashboard and exported data
-│   ├── index.html
-│   ├── styles.css
-│   ├── app.js
-│   └── dashboard_data/
-│       ├── fire_data.json
-│       └── perimeters/
-└── reports/
-    └── FireCast_Final_Report.pdf         # Full methodology and analysis
+└── dashboard/                            # Interactive web dashboard and exported data
+    ├── index.html
+    ├── styles.css
+    ├── app.js
+    └── dashboard_data/
+        ├── fire_data.json
+        └── perimeters/
 ```
 
 ## Authors
