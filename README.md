@@ -89,5 +89,3 @@ FireCast/
 
 - Jonathan Kelly
 - Michael Michelini
-
-University of Michigan - SIADS 699 Capstone Project
